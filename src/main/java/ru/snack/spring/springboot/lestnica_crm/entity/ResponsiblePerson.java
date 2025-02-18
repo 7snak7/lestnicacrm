@@ -1,11 +1,11 @@
 package ru.snack.spring.springboot.lestnica_crm.entity;
 
-
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "responsible_persons")
 public class ResponsiblePerson {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
