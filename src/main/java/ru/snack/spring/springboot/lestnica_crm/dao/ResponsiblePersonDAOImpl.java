@@ -1,9 +1,9 @@
-package ru.snack.spring.springboot.lestnicacrm.dao;
+package ru.snack.spring.springboot.lestnica_crm.dao;
 
 import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import ru.snack.spring.springboot.lestnicacrm.entity.ResponsiblePerson;
+import ru.snack.spring.springboot.lestnica_crm.entity.ResponsiblePerson;
 
 import java.util.List;
 

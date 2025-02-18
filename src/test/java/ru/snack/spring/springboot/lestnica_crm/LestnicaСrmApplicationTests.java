@@ -1,10 +1,10 @@
-package ru.snack.spring.springboot.lestnicacrm;
+package ru.snack.spring.springboot.lestnica_crm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LestnicacrmApplicationTests {
+class LestnicaСrmApplicationTests {
 
     @Test
     void contextLoads() {

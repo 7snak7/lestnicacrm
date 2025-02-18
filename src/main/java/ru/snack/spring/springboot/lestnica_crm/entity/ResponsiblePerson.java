@@ -1,4 +1,4 @@
-package ru.snack.spring.springboot.lestnicacrm.entity;
+package ru.snack.spring.springboot.lestnica_crm.entity;
 
 
 import jakarta.persistence.*;

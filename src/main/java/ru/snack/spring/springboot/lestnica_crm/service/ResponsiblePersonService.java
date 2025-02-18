@@ -1,6 +1,6 @@
-package ru.snack.spring.springboot.lestnicacrm.service;
+package ru.snack.spring.springboot.lestnica_crm.service;
 
-import ru.snack.spring.springboot.lestnicacrm.entity.ResponsiblePerson;
+import ru.snack.spring.springboot.lestnica_crm.entity.ResponsiblePerson;
 
 import java.util.List;
 

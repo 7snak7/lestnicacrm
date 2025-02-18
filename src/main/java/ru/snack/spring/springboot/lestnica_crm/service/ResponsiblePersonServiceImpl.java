@@ -1,10 +1,10 @@
-package ru.snack.spring.springboot.lestnicacrm.service;
+package ru.snack.spring.springboot.lestnica_crm.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-import ru.snack.spring.springboot.lestnicacrm.dao.ResponsiblePersonDAO;
-import ru.snack.spring.springboot.lestnicacrm.entity.ResponsiblePerson;
+import ru.snack.spring.springboot.lestnica_crm.dao.ResponsiblePersonDAO;
+import ru.snack.spring.springboot.lestnica_crm.entity.ResponsiblePerson;
 
 import java.util.List;
 

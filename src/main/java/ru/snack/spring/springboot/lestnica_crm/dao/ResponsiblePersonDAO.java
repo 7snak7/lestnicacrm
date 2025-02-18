@@ -1,7 +1,6 @@
-package ru.snack.spring.springboot.lestnicacrm.dao;
+package ru.snack.spring.springboot.lestnica_crm.dao;
 
-import org.springframework.stereotype.Repository;
-import ru.snack.spring.springboot.lestnicacrm.entity.ResponsiblePerson;
+import ru.snack.spring.springboot.lestnica_crm.entity.ResponsiblePerson;
 
 import java.util.List;
 
