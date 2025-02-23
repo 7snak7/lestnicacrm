@@ -12,7 +12,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@Table(name = "shops_anix")
+@Table(name = "anix_shops")
 public class AnixShop {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,4 +31,13 @@ public class AnixShop {
     @JsonProperty
     @Column(name = "bush_director")
     private String bushDirector;
+
+//    public AnixShop(String name, String address, String city, String number, String manager, String bushDirector) {
+//        this.name = name;
+//        this.address = address;
+//        this.city = city;
+//        this.number = number;
+//        this.manager = manager;
+//        this.bushDirector = bushDirector;
+//    }
 }
