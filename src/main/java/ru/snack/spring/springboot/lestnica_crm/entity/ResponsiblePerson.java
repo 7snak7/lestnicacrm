@@ -1,5 +1,6 @@
 package ru.snack.spring.springboot.lestnica_crm.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
 @Entity

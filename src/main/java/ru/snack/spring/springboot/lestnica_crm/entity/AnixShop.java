@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "shops_anix")
-public class ShopAnix {
+public class AnixShop {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,10 +29,10 @@ public class ShopAnix {
     @Column(name = "bush_director")
     private String bushDirector;
 
-    public ShopAnix() {
+    public AnixShop() {
     }
 
-    public ShopAnix(String name, String address, String city, String number, String manager, String bushDirector) {
+    public AnixShop(String name, String address, String city, String number, String manager, String bushDirector) {
         this.name = name;
         this.address = address;
         this.city = city;
