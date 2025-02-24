@@ -29,15 +29,15 @@ public class AnixShop {
     @JsonProperty
     private String manager;
     @JsonProperty
-    @Column(name = "bush_director")
-    private String bushDirector;
+    @Column(name = "bush_direction")
+    private String bushDirection;
 
-//    public AnixShop(String name, String address, String city, String number, String manager, String bushDirector) {
+//    public AnixShop(String name, String address, String city, String number, String manager, String bushDirection) {
 //        this.name = name;
 //        this.address = address;
 //        this.city = city;
 //        this.number = number;
 //        this.manager = manager;
-//        this.bushDirector = bushDirector;
+//        this.bushDirection = bushDirection;
 //    }
 }
