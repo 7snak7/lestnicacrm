@@ -27,6 +27,18 @@ public class FillAnixShops {
                 System.out.println(data[1]+' '+data[2]+' '+data[0]+' '+data[3]+' '+data[4]+' '+data[5]);
 //                AnixShop anixShop = new AnixShop(data[1],data[2],data[0],data[3],data[4],data[5]);
 //                session.save(anixShop);
+
+
+//    public AnixShop(String name, String address, String city, String number, String manager, String bushDirection) {
+//        this.name = name;
+//        this.address = address;
+//        this.city = city;
+//        this.number = number;
+//        this.manager = manager;
+//        this.bushDirection = bushDirection;
+//    }
+
+
             }
             session.getTransaction().commit();
         }

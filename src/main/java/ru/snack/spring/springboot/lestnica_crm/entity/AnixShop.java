@@ -8,10 +8,6 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Getter
-@Setter
-@ToString
 @Table(name = "anix_shops")
 public class AnixShop {
     @Id
@@ -32,12 +28,4 @@ public class AnixShop {
     @Column(name = "bush_director")
     private String bushDirector;
 
-//    public AnixShop(String name, String address, String city, String number, String manager, String bushDirection) {
-//        this.name = name;
-//        this.address = address;
-//        this.city = city;
-//        this.number = number;
-//        this.manager = manager;
-//        this.bushDirection = bushDirection;
-//    }
 }

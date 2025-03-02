@@ -8,10 +8,6 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Getter
-@Setter
-@ToString
 @Table(name = "responsible_persons")
 public class ResponsiblePerson {
     @Id
